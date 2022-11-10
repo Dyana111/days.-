@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: #17181A;
+    height: 100%;
+    color:white;
+    font-family: 'Abril Fatface', cursive;
+}
+.navbar{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+.menu-btn{
+    margin-top: 20px;
+}
+.menu-item{
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: white;
+}
+
+.menu-item-last{
+    margin-top:5px
+}
+.banner{
+    padding: 20px 200px;
+    margin: 8% 0px;
+    display: flex;
+}
+.banner-img img{
+    width:400px;
+    height: 400px;
+}
+
+.banner-img{
+    display: inline-block;
+    width: 50%;
+}
+.banner-text{
+    display: inline-block;
+    width: 50%;
+    padding-left: 80px;
+    margin-top: -41px;
+}
+.banner-text h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.banner-text p{
+    margin-bottom: 25px;
+}
+.explore-btn{
+    padding: 15px 35px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
