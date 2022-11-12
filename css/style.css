@@ -15,6 +15,12 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px 200px;
+    /* to make the navbar on the toggle window after we click the two buttons */
+    position: relative;
+    z-index: 2;
+}
+.navbar h1{
+    text-decoration: underline;
 }
 .menu-btn{
     margin-top: 20px;
@@ -50,15 +56,31 @@ body{
     margin-top: -41px;
 }
 .banner-text h1{
-    font-size: 65px;
+    font-size: 70px;
     margin-bottom: 20px;
 }
 .banner-text p{
     margin-bottom: 25px;
 }
 .explore-btn{
-    padding: 15px 35px;
+    padding: 12px 25px;
     border: 1px solid white;
     color: white;
     text-decoration: none;
 }
+.colored-title{
+    color: #4C6BC9;
+}
+
+.menu-popup{
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 15%;
+    height: 100%;
+    width: 100%;
+    color: black;
+    background-color: white;
+    clip-path: circle(50px at 100% -10%);
+
+} 
